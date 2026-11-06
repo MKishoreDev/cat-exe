@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CAT.EXE — a tiny cat. a long night. one more run.</title>
+<meta name="description" content="CAT.EXE is a tiny open-source pixel-art endless runner. A little black cat, a quiet city at night, one more run.">
+<meta name="theme-color" content="#08090D">
+<meta property="og:title" content="CAT.EXE"><meta property="og:description" content="A tiny cat. A long night. One more run.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="src/styles.css"></head><body>
+<div class="cx-w">
+<canvas class="cx-c" width="320" height="180" role="img" aria-label="CAT.EXE: a little black cat runs across night rooftops. Press space, up arrow or W, or tap, to jump over chimneys, vents and water tanks. Collect stars and fish."></canvas>
+<button id="pz" hidden aria-label="Pause">II</button>
+<div id="ov" class="cx-ov"></div>
+<div id="tt" role="status"></div>
+</div>
+<footer>Space, ↑ or W to jump · tap anywhere on touch · P to pause<br>Made for the nights when the internet disappears.</footer>
+<script src="src/game.js"></script>
+<script>if("serviceWorker"in navigator&&location.protocol.startsWith("http"))navigator.serviceWorker.register("sw.js").catch(()=>{})</script>
+</body></html>

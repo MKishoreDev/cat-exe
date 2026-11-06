@@ -1,0 +1,35 @@
+{
+  "name": "cat-exe",
+  "version": "1.0.0",
+  "description": "🐾 A tiny cat. A long night. One more run. A zero-dependency pixel-art endless runner in pure HTML5 Canvas & Vanilla JS.",
+  "author": "Kishore M (https://github.com/MKishoreDev)",
+  "license": "MIT",
+  "homepage": "https://mkishoredev.github.io/cat-exe/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKishoreDev/cat-exe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MKishoreDev/cat-exe/issues"
+  },
+  "main": "index.html",
+  "scripts": {
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "game",
+    "canvas",
+    "pixel-art",
+    "endless-runner",
+    "vanilla-js",
+    "easter-egg",
+    "web-game",
+    "embeddable",
+    "web-component",
+    "cat",
+    "offline-first",
+    "pwa",
+    "retro-gaming",
+    "indie-game"
+  ]
+}
